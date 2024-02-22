@@ -18,7 +18,7 @@ public class Main {
             }
         }
         
-        temp[j++] = array[array.length - 1];
+        temp[j] = array[array.length - 1];
         return temp;
     }
 }
