@@ -3,7 +3,7 @@ public class Main {
 
         Student student1 = new Student("Marco", "Ferraro", 1);
 
-        System.out.println(student1.getname() + student1.getSurname() + student1.getId());
+        System.out.println(student1.getName() + " " + student1.getSurname() + " " + student1.getId());
 
     }
 }

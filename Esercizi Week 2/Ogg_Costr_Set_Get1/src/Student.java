@@ -9,7 +9,7 @@ public class Student {
         this.id = id;
     }
 
-    public String getname (){
+    public String getName (){
         return name;
     }
     public String getSurname(){
@@ -22,11 +22,9 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-
     public void setSurname(String surname) {
         this.surname = surname;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -36,3 +34,4 @@ public class Student {
         return name + " " + surname + " " + id;
     }
 }
+// i metodi getter e setter devono essere pubblici
